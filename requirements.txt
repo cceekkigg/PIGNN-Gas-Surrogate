@@ -1,0 +1,12 @@
+﻿# Core runtime dependencies for paper-model-v2.
+# Install a cluster-appropriate PyTorch build if CUDA is needed.
+# Follow the official PyTorch and PyG install instructions for your CUDA version.
+
+numpy
+pandas
+matplotlib
+networkx
+tqdm
+torch
+torch-geometric
+scikit-learn
