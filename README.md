@@ -188,5 +188,4 @@ This project is released under the [CC BY-NC 4.0 License](https://creativecommon
 
 ## Contact
 
-Dongrui Jiang
 jdr_maggiea@hotmail.com
