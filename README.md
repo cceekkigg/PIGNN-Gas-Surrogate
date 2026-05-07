@@ -1,6 +1,6 @@
 # Physics-Informed Graph Neural Surrogate for Gas Networks
 
-This repository contains a cleaned implementation of a physics-informed graph neural network surrogate for steady-state gas-network simulation and feasibility-oriented evaluation. It supports the manuscript titled "Physics-Informed Graph Neural Surrogate for Steady-State Gas Network Simulation and Feasibility Screening". The cleaned package includes a GasLib-582 topology file, bundled MYNTS-labelled demonstration data for GasLib-582, model training and validation code, a saved checkpoint, and generated demonstration logs/plots. From this package, users can reproduce the included GasLib-582 demonstration training and validation workflow; the original MYNTS scenario-generation workflow, additional GasLib networks, ablation studies, and full feasibility-screening experiment are not included in this release.
+This repository contains a cleaned implementation of a physics-informed graph neural network surrogate for steady-state gas-network simulation and feasibility-oriented evaluation. From this package, users can reproduce the included GasLib-582 demonstration training and validation workflow; the original MYNTS scenario-generation workflow, additional GasLib networks, ablation studies, and full feasibility-screening experiment are not included in this release.
 
 ## Repository contents
 
