@@ -23,17 +23,7 @@ This repository contains a cleaned implementation of a physics-informed graph ne
 |-- data/
 |   |-- gaslib-582.gml
 |   |-- raw/
-|   |   |-- gaslib582_mynts_demo_train400.npz
-|   |   |-- gaslib582_mynts_demo_val100.npz
-|   |   `-- gaslib582_mynts_demo_split.json
 |   `-- processed/
-|       |-- norm_state_gaslib582_mynts_demo_train400.json
-|       |-- graph_cache_gaslib582_mynts_demo_train400_bps1_lap4_aq95_tk16_am1.pt
-|       `-- graph_cache_gaslib582_mynts_demo_val100_bps1_lap4_aq95_tk16_am1.pt
-`-- results/
-    |-- checkpoints/
-    |-- logs/
-    `-- plots/
 ```
 
 The `src/` directory contains the training, validation, graph construction, model, and physics-operator code. The `data/` directory contains the GasLib-582 topology and bundled demonstration arrays. The `results/` directory contains a saved checkpoint and generated outputs for the bundled demonstration.
