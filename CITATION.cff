@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: "Physics-Informed Graph Neural Surrogate for Steady-State Gas Network Simulation and Feasibility Analysis: Code and Reproducibility Package"
+message: "If you use this code or reproducibility package, please cite the archived Zenodo release."
+type: software
+authors:
+  - family-names: Jiang
+    given-names: Dongrui
+  - family-names: Garcke
+    given-names: Jochen
+  - family-names: Akca
+    given-names: Okan
+  - family-names: Hollnagel
+    given-names: Jeremias
+  - family-names: Klaassen
+    given-names: Bernhard
+  - family-names: Anvari
+    given-names: Mehrnaz
+  - family-names: Müller-Kirchenbauer
+    given-names: Joachim
+doi: 10.5281/zenodo.20075820
+repository-code: "[https://github.com/cceekkigg/PIGNN-Gas-Surrogate]"
+license: "CC BY-NC 4.0 License"
+version: "v1.0.1"
+date-released: "2026-05-07"
+preferred-citation:
+  type: article
+  title: "Physics-Informed Graph Neural Surrogate for Steady-State Gas Network Simulation and Feasibility Analysis"
+  authors:
+    - family-names: Jiang
+      given-names: Dongrui
+    - family-names: Garcke
+      given-names: Jochen
+    - family-names: Akca
+      given-names: Okan
+    - family-names: Hollnagel
+      given-names: Jeremias
+    - family-names: Klaassen
+      given-names: Bernhard
+    - family-names: Anvari
+      given-names: Mehrnaz
+    - family-names: Müller-Kirchenbauer
+      given-names: Joachim
+  journal: "[Journal name]"
+  year: "[Year]"
+  doi: "[Manuscript DOI]"
