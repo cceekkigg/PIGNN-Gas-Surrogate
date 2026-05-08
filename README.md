@@ -137,22 +137,13 @@ The physics-operator tolerances, pressure reconstruction settings, mass-balance 
 If you use this code, cite the associated manuscript and this repository. The repository archive DOI is [10.5281/zenodo.20075820](https://doi.org/10.5281/zenodo.20075820). A `CITATION.cff` file is included for GitHub citation metadata.
 
 ```bibtex
-@article{gasgnn_surrogate_[Year],
-  title = {Physics-Informed Graph Neural Surrogate for Steady-State Gas Network Simulation and Feasibility Screening},
-  author = {[Author list]},
-  journal = {[Journal]},
-  year = {[Year]},
-  volume = {[Volume]},
-  pages = {[Pages]},
-  doi = {[DOI]}
-}
-
-@software{gasgnn_surrogate_code_[Year],
-  title = {Physics-Informed Graph Neural Surrogate for Gas Networks},
-  author = {[Author list]},
-  year = {[Year]},
-  doi = {10.5281/zenodo.20075820},
-  url = {[GitHub URL]}
+@software{jiang_gasgnn_2026,
+  author    = {Jiang, Dongrui and Garcke, Jochen and Akca, Okan and Hollnagel, Jeremias and Klaassen, Bernhard and Anvari, Mehrnaz and M{\"u}ller-Kirchenbauer, Joachim},
+  title     = {Physics-Informed Graph Neural Surrogate for Steady-State Gas Network Simulation and Feasibility Screening: Code and Reproducibility Package},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20075820},
+  url       = {https://doi.org/10.5281/zenodo.20075820}
 }
 ```
 
