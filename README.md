@@ -134,7 +134,15 @@ The physics-operator tolerances, pressure reconstruction settings, mass-balance 
 
 ## Citation
 
-If you use this code, cite the associated manuscript and this repository. The repository archive DOI is [10.5281/zenodo.20075820](https://doi.org/10.5281/zenodo.20075820). A `CITATION.cff` file is included for GitHub citation metadata.
+Please cite the resources that you use.
+
+### Using the PI-GNN code, model, or reproducibility package
+
+If you use the code, model implementation, training pipeline, physics-informed
+projection operators, or reproducibility scripts, please cite the associated
+manuscript and this repository.
+
+The repository archive DOI is [10.5281/zenodo.20075820](https://doi.org/10.5281/zenodo.20075820). A `CITATION.cff` file is included for GitHub citation metadata.
 
 ```bibtex
 @software{jiang_gasgnn_2026,
@@ -144,6 +152,39 @@ If you use this code, cite the associated manuscript and this repository. The re
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20075820},
   url       = {https://doi.org/10.5281/zenodo.20075820}
+}
+````
+
+### Using only the MYNTS-generated data
+
+If you use only the scenario data, hydraulic simulation outputs, or benchmark datasets generated with MYNTS, and do not use the PI-GNN code, model
+implementation, training pipeline, or reproducibility scripts, please cite the associated manuscript and this repository archive as the source of the generated data.
+
+```bibtex
+@dataset{jiang_mynts_data_2026,
+  author    = {Jiang, Dongrui and Garcke, Jochen and Akca, Okan and Hollnagel, Jeremias and Klaassen, Bernhard and Anvari, Mehrnaz and M{\"u}ller-Kirchenbauer, Joachim},
+  title     = {MYNTS-Generated Gas Network Scenario Data for Physics-Informed Graph Neural Surrogate Evaluation},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20075820},
+  url       = {https://doi.org/10.5281/zenodo.20075820},
+  note      = {Scenario data and hydraulic simulation outputs generated with MYNTS for GasLib-based gas-network surrogate modelling and feasibility screening}
+}
+```
+
+The MYNTS-generated data were produced using the Multiphysical Network Simulator (MYNTS). If your work relies on the MYNTS-generated hydraulic solutions, please also cite the relevant MYNTS software or publication according to the MYNTS citation guidance.
+
+### Associated manuscript
+
+Please also cite the associated manuscript when it becomes available:
+
+```bibtex
+@article{jiang_pignn_gas_network_2026,
+  author  = {Jiang, Dongrui and Garcke, Jochen and Akca, Okan and Hollnagel, Jeremias and Klaassen, Bernhard and Anvari, Mehrnaz and M{\"u}ller-Kirchenbauer, Joachim},
+  title   = {Physics-Informed Graph Neural Surrogate for Steady-State Gas Network Simulation and Feasibility Screening},
+  journal = {Applied Energy},
+  year    = {2026},
+  note    = {Manuscript submitted}
 }
 ```
 
